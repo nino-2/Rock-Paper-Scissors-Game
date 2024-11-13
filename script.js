@@ -89,11 +89,11 @@ function playGame(playerMove) {
   document.querySelector(".js-move").innerHTML = ` You
       <img
         class="move-icon"
-        src="images/${playerMove}-emoji.png"
+        src="Rock Paper Scissors/${playerMove}-emoji.png"
       />
       <img
         class="move-icon"
-        src="images/${computerMove}-emoji.png"
+        src="Rock Paper Scissors/${computerMove}-emoji.png"
       />
       Computer`;
 }
