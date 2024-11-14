@@ -87,14 +87,10 @@ function playGame(playerMove) {
   document.querySelector(".js-result").innerHTML = result;
 
   document.querySelector(".js-move").innerHTML = ` You
-      <img
-        class="move-icon"
-        src="..images/${playerMove}-emoji.png"
-      />
-      <img
-        class="move-icon"
-        src="..images/${computerMove}-emoji.png"
-      />
+    
+      <img class="move-icon" src="images/${playerMove}-emoji.png" />
+      <img class="move-icon" src="images/${computerMove}-emoji.png" />
+      
       Computer`;
 }
 function updateScoreElement() {
